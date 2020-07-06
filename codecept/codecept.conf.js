@@ -20,7 +20,7 @@ exports.config = {
   include: {
     I: './steps_file.js'
   },
-  bootstrap: null,
+  bootstrap: false,
   mocha: {},
   name: 'brands-e2e',
   plugins: {
